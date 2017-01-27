@@ -1,15 +1,13 @@
 ##########################################
-#
 # Ubuntu Desktop Dockerfile
-#
 # https://github.com/dockerfile/ubuntu-desktop
-#
 ##########################################
 
 ##########################################
 # Pull base image.
 ##########################################
 FROM ubuntu
+MAINTAINER venantvr
 
 ##########################################
 # Install desktop and VNC server.
